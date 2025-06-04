@@ -8,5 +8,11 @@ namespace CarritoCompras
 {
     class Carrito
     {
+        public List<ItemCarrito> items { get; set; } = new List<ItemCarrito>();
+
+        public Carrito()
+        {
+
+        }
     }
 }

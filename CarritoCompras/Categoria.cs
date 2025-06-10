@@ -14,7 +14,7 @@ namespace CarritoCompras
         
         public void Categoria(string nombre, string desc)
         {
-            this.Nombre = nombre;
+            Nombre = nombre;
             Descripcion = desc;
         }
     }

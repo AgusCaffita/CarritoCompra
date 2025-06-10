@@ -34,6 +34,7 @@ namespace CarritoCompras
 
                 default:
                     Console.WriteLine("Numero no valido");
+                    break;
             }
         }
     }

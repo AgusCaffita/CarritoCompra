@@ -10,11 +10,11 @@ namespace CarritoCompras
     {
         public int Codigo { get; set; }
         public string Nombre { get; set; }
-        public float Precio { get; set; }
+        public double Precio { get; set; }
         public int Stock { get; set; }
         public Categoria Categoria { get; set; }
 
-        public void Producto(int Codigo, string Nombre, float Precio, int Stock, Categoria categoria)
+        public Producto(int Codigo, string Nombre, double Precio, int Stock, Categoria categoria)
         { 
             this.Codigo = Codigo;
             this.Nombre = Nombre;

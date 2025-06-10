@@ -12,7 +12,7 @@ namespace CarritoCompras
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         
-        public void Categoria(string nombre, string desc)
+        public Categoria(string nombre, string desc)
         {
             Nombre = nombre;
             Descripcion = desc;

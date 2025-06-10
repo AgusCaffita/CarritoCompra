@@ -8,5 +8,13 @@ namespace CarritoCompras
 {
     class ItemCarrito
     {
+        public Producto Producto { get; set; } 
+        public int Cantidad { get; set; } 
+
+        public ItemCarrito(Producto Producto, int cant)
+        {
+            this.Producto = Producto;
+            Cantidad = cant;
+        }
     }
 }

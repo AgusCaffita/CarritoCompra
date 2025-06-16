@@ -14,7 +14,7 @@ namespace CarritoCompras
         public int Stock { get; set; }
         public Categoria Categoria { get; set; }
 
-        public Producto(int Codigo, string Nombre, double Precio, int Stock, Categoria categoria)
+        public Producto(int Codigo, string Nombre, double Precio, int Stock, Categoria Categoria)
         { 
             this.Codigo = Codigo;
             this.Nombre = Nombre;

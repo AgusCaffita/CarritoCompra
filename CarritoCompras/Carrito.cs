@@ -10,11 +10,7 @@ namespace CarritoCompras
     {
         public List<ItemCarrito> items { get; set; } = new List<ItemCarrito>();
 
-        public Carrito()
-        {
-
-        }
-        public void Agregar(int cod, int cant)
+        public void Agregar(int cod, int cant, Producto producto)
         {
             int i = 0;
             for (i = 0; i < items.Count; i++)
@@ -27,8 +23,7 @@ namespace CarritoCompras
             }
             if (i == items.Count)
             {
-                items[i + 1].Cantidad = cant;
-                items[i + 1].Producto.Codigo = cod;
+                items.Add(new ItemCarrito(producto, cant));
             }
         }
 
@@ -50,6 +45,10 @@ namespace CarritoCompras
             {
                 Console.WriteLine(items[i].Producto.Nombre + " " + items[i].Cantidad);
             }
+            if (items.Count == 0)
+            {
+                Console.WriteLine("...nada");
+            }
         }
         public void TotalPagar()
         {
@@ -65,13 +64,13 @@ namespace CarritoCompras
                     total += (items[i].Producto.Precio * items[i].Cantidad);
                 }  
             }
-            total = total + (total * 0.79);
+            total = total + (total * 0.21);
             Console.WriteLine("El total de su compra es: " + total);
         }
         public void FinalizarCompra()
         {
             TotalPagar();
-            for (int i = 0; i < items.Count; i++)
+            /*for (int i = 0; i < items.Count; i++)
             {
                 for (int j = 0; j < productos.Count; j++)
                 {
@@ -80,7 +79,7 @@ namespace CarritoCompras
                         productos.Stock -= items[i].Cantidad;
                     }
                 }
-            }
+            }*/
         }
 
     }

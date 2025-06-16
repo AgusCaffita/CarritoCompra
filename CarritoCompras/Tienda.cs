@@ -60,7 +60,7 @@ namespace CarritoCompras
             Console.WriteLine("\nProductos\n");
             for (int i = 0; i < productos.Count; i++)
             {
-                Console.WriteLine(productos[i].Nombre + " " + productos[i].Codigo + "\n Precio $" + productos[i].Precio + " quedan" + productos[i].Stock + "\n");
+                Console.WriteLine(productos[i].Nombre + " " + productos[i].Codigo + "\n Precio $" + productos[i].Precio + " quedan " + productos[i].Stock + "\n");
             }
         }
         public void VerProdFiltrados(int num)

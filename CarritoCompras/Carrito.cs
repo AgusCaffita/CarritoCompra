@@ -29,14 +29,20 @@ namespace CarritoCompras
 
         public void Eliminar(int cod)
         {
-            for (int i = 0; i < items.Count; i++)
+            int i = 0;
+            for (i = 0; i < items.Count; i++)
             {
                 if (cod == items[i].Producto.Codigo)
                 {
                     items.RemoveAt(i);
-                    i = items.Count;
+                    i = items.Count+1;
                 }
             }
+            if (i == items.Count)
+            {
+                Console.WriteLine("Ese producto no se encuentra en el carrito");
+            }
+
         }
         public void VerCarrito()
         {
@@ -67,19 +73,20 @@ namespace CarritoCompras
             total = total + (total * 0.21);
             Console.WriteLine("El total de su compra es: " + total);
         }
-        public void FinalizarCompra()
+        public void FinalizarCompra(List<Producto>prod)
         {
             TotalPagar();
-            /*for (int i = 0; i < items.Count; i++)
+            for (int i = 0; i < items.Count; i++)
             {
-                for (int j = 0; j < productos.Count; j++)
+                for (int j = 0; j < prod.Count; j++)
                 {
-                    if(items[i].Producto.Codigo == productos.Codigo)
+                    if(items[i].Producto.Codigo == prod[j].Codigo)
                     {
-                        productos.Stock -= items[i].Cantidad;
+                        prod[j].Stock = prod[j].Stock - items[i].Cantidad;
                     }
                 }
-            }*/
+            }
+            Console.WriteLine("Realizando pago...");
         }
 
     }

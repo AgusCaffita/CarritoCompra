@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Usuario\\Pictures\\Pictures\\Escuela\\6to\\C#\\CarritoCompra\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|e:\\usuario\\pictures\\pictures\\escuela\\6to\\c#\\carritocompra\\carritocompras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|solutionrelative:carritocompras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|e:\\usuario\\pictures\\pictures\\escuela\\6to\\c#\\carritocompra\\carritocompras\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|solutionrelative:carritocompras\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|e:\\usuario\\pictures\\pictures\\escuela\\6to\\c#\\carritocompra\\carritocompras\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|solutionrelative:carritocompras\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|e:\\usuario\\pictures\\pictures\\escuela\\6to\\c#\\carritocompra\\carritocompras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|solutionrelative:carritocompras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28B4E862-42FB-44FC-971B-DDF797AA57CF}|CarritoCompras\\CarritoCompras.csproj|e:\\usuario\\pictures\\pictures\\escuela\\6to\\c#\\carritocompra\\carritocompras\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,43 +34,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Usuario\\Pictures\\Pictures\\Escuela\\6to\\C#\\CarritoCompra\\CarritoCompras\\Program.cs",
               "RelativeDocumentMoniker": "CarritoCompras\\Program.cs",
               "ToolTip": "E:\\Usuario\\Pictures\\Pictures\\Escuela\\6to\\C#\\CarritoCompra\\CarritoCompras\\Program.cs",
               "RelativeToolTip": "CarritoCompras\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv0QAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T23:54:06.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Carrito.cs",
               "DocumentMoniker": "E:\\Usuario\\Pictures\\Pictures\\Escuela\\6to\\C#\\CarritoCompra\\CarritoCompras\\Carrito.cs",
               "RelativeDocumentMoniker": "CarritoCompras\\Carrito.cs",
               "ToolTip": "E:\\Usuario\\Pictures\\Pictures\\Escuela\\6to\\C#\\CarritoCompra\\CarritoCompras\\Carrito.cs",
               "RelativeToolTip": "CarritoCompras\\Carrito.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAA4wEIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T19:16:01.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Tienda.cs",
               "DocumentMoniker": "E:\\Usuario\\Pictures\\Pictures\\Escuela\\6to\\C#\\CarritoCompra\\CarritoCompras\\Tienda.cs",
               "RelativeDocumentMoniker": "CarritoCompras\\Tienda.cs",
               "ToolTip": "E:\\Usuario\\Pictures\\Pictures\\Escuela\\6to\\C#\\CarritoCompra\\CarritoCompras\\Tienda.cs",
               "RelativeToolTip": "CarritoCompras\\Tienda.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAxwEwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAD4AAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T00:06:04.761Z",
               "EditorCaption": ""
@@ -98,8 +98,7 @@
               "RelativeToolTip": "CarritoCompras\\Categoria.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:51:20.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T13:51:20.228Z"
             },
             {
               "$type": "Document",
@@ -111,8 +110,7 @@
               "RelativeToolTip": "CarritoCompras\\ItemCarrito.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:15:54.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T19:15:54.784Z"
             }
           ]
         }

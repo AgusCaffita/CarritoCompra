@@ -43,5 +43,45 @@ namespace CarritoCompras
                 }
             }
         }
+        public void VerCarrito()
+        {
+            Console.WriteLine("El carrito tiene");
+            for (int i = 0; i < items.Count; i++)
+            {
+                Console.WriteLine(items[i].Producto.Nombre + " " + items[i].Cantidad);
+            }
+        }
+        public void TotalPagar()
+        {
+            double total = 0;
+            for (int i = 0; i < items.Count; i++)
+            {
+                if (items[i].Cantidad >= 5)
+                {
+                    total += (items[i].Producto.Precio * 0.85 * items[i].Cantidad);
+                }
+                else
+                {
+                    total += (items[i].Producto.Precio * items[i].Cantidad);
+                }  
+            }
+            total = total + (total * 0.79);
+            Console.WriteLine("El total de su compra es: " + total);
+        }
+        public void FinalizarCompra()
+        {
+            TotalPagar();
+            for (int i = 0; i < items.Count; i++)
+            {
+                for (int j = 0; j < productos.Count; j++)
+                {
+                    if(items[i].Producto.Codigo == productos.Codigo)
+                    {
+                        productos.Stock -= items[i].Cantidad;
+                    }
+                }
+            }
+        }
+
     }
 }

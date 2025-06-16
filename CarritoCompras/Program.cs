@@ -19,6 +19,7 @@ namespace CarritoCompras
                 Console.WriteLine("\n1- Ver Catalogo \n2- Ver su carrito \n3- Ver categorias de productos \n4- Salir");
                 input = Console.ReadLine();
                 accion = int.Parse(input);
+                b = true;
                 switch (accion)
                 {
                     case 1:
